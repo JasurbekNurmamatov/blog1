@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.wrapper {
+    border:purple 2px solid
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1% 10%;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;     
+    
+}
+.leftheader {
+    display: flex;
+    justify-content:flex-end;
+    flex-basis: 40%;
+   
+}
+.rightheader {
+    flex-basis:60%;
+    padding-left: 1rem;    
+
+}
+.rightheader h1{
+    color:rgb(212, 24, 87);
+    font-size: 48px;
+    margin: 0;
+
+}
+.rightheader p {
+    margin: 0; 
+    }
+
+nav {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    }   
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    font-size: 16px;
+    margin:0;
+}
+nav a {
+    display: block;
+    padding:0.5rem 1rem;
+}
+nav ul a:hover {
+    background-color: black;
+    color:yellowgreen;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+hr.last {
+    border-top: 1px solid hsl(350, 84%, 59%);
+    border-bottom: 1px solid  hsl(350, 84%, 59%);
+    border-left: 0;
+    border-right: 0;
+    padding: 3px;
+}
+
+
+article {
+    margin: 2rem 0;
+}
+article .float {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+section {
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer {
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+footer {
+    margin:2rem 0; 
+}
+footer ul  {
+    list-style-type: none;
+    font-size: 0.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-right: 30px;
+    
+    
+}
+footer li {
+    padding:2px;
+}
